@@ -1,1 +1,11 @@
-pepe 
+#Declaracion de variables
+x=99
+lista = [x,' bottles of beer on the wall ',' bottles of beer.','Take one down, pass it around, ',' bottles of beer on the wall.']
+
+
+while x!=0:
+    print lista[0],lista[1],lista[0],lista[2]
+    print lista[3],lista[0]-1,lista[4]
+    x-=1
+    lista[0]=x
+    print
